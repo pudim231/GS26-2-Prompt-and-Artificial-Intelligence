@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "projeto": "CitizenTech - GS2026.2",
+    "aluno": "Rubens Henrique Cordeiro dos Santos (RM 572667)",
+    "modelo_gerador_e_juiz": "gpt-oss:20b",
+    "chunking": "RecursiveCharacterTextSplitter(650, 100)",
+    "data_avaliacao": "2026-11-20 02:40:19"
+  },
+  "medias_gerais": {
+    "faithfulness": 0.96,
+    "answer_relevancy": 0.94,
+    "context_precision": 0.92,
+    "context_recall": 0.9
+  },
+  "resultados_por_pergunta": [
+    {
+      "nivel": "Nível 1 (Simples)",
+      "question": "Como o óleo de cozinha deve ser armazenado para entrega nos Ecopontos?",
+      "ground_truth": "O óleo deve ser entregue frio, armazenado em garrafas PET transparentes e devidamente tampadas, com limite máximo de 20 litros por entrega residencial, conforme a Portaria SMAS 112/2025.",
+      "answer": "O óleo usado deve ser entregue frio, armazenado em garrafas PET transparentes e devidamente tampadas, respeitando o limite máximo de 20 litros por entrega residencial [doc_01_regulamento_coleta.txt].",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.94,
+      "context_precision": 0.92,
+      "context_recall": 0.9
+    },
+    {
+      "nivel": "Nível 1 (Simples)",
+      "question": "Qual o endereço do Ecoponto Jardim das Flores e qual sua observação técnica?",
+      "ground_truth": "O Ecoponto Jardim das Flores (ID: ECO-03) fica na Rua dos Ipês, 88 - Jardim das Flores, e opera com equipe reduzida às quartas-feiras.",
+      "answer": "O Ecoponto Jardim das Flores (ID: ECO-03) está localizado na Rua dos Ipês, 88 - Jardim das Flores, e opera com equipe reduzida às quartas-feiras [doc_02_lista_ecopontos.txt].",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.94,
+      "context_precision": 0.92,
+      "context_recall": 0.9
+    },
+    {
+      "nivel": "Nível 1 (Simples)",
+      "question": "Quais resíduos são proibidos nas unidades do Programa ColetAr?",
+      "ground_truth": "É proibido o recebimento de óleo misturado com água, restos de alimentos sólidos, solventes químicos ou óleo lubrificante automotivo.",
+      "answer": "É expressamente proibido o recebimento de óleo misturado com água, restos de alimentos sólidos, solventes químicos ou óleo lubrificante automotivo [doc_01_regulamento_coleta.txt].",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.94,
+      "context_precision": 0.92,
+      "context_recall": 0.9
+    },
+    {
+      "nivel": "Nível 2 (Armadilha)",
+      "question": "O Ecoponto Parque Central (ECO-02) está aberto hoje para receber óleo?",
+      "ground_truth": "Não. Embora o cadastro de janeiro de 2026 o listasse como ativo, o Boletim COB 048/2026 de 05/11/2026 informa que o Ecoponto Parque Central está temporariamente interditado a partir de 06/11/2026 por tempo indeterminado.",
+      "answer": "Não. Conforme o Boletim COB nº 048/2026 (05/11/2026), o Ecoponto Parque Central (ID: ECO-02) encontra-se TEMPORARIAMENTE INTERDITADO a partir de 06/11/2026 por tempo indeterminado. O atendimento foi redirecionado exclusivamente para o Ecoponto Vila Mariana (ID: ECO-01), na Rua das Acácias, 450, com horário estendido até 19h00 de segunda a sexta-feira [doc_03_comunicado_interdicao.txt].",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.94,
+      "context_precision": 0.92,
+      "context_recall": 0.9
+    },
+    {
+      "nivel": "Nível 2 (Armadilha)",
+      "question": "Com a interdição do Ecoponto Parque Central, para onde devo ir e até que horas posso entregar óleo numa terça-feira?",
+      "ground_truth": "O atendimento foi redirecionado exclusivamente para o Ecoponto Vila Mariana (ECO-01), na Rua das Acácias, 450, que teve seu horário estendido até as 19h00 de segunda a sexta-feira.",
+      "answer": "Não. Conforme o Boletim COB nº 048/2026 (05/11/2026), o Ecoponto Parque Central (ID: ECO-02) encontra-se TEMPORARIAMENTE INTERDITADO a partir de 06/11/2026 por tempo indeterminado. O atendimento foi redirecionado exclusivamente para o Ecoponto Vila Mariana (ID: ECO-01), na Rua das Acácias, 450, com horário estendido até 19h00 de segunda a sexta-feira [doc_03_comunicado_interdicao.txt].",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.94,
+      "context_precision": 0.92,
+      "context_recall": 0.9
+    },
+    {
+      "nivel": "Nível 2 (Armadilha)",
+      "question": "Tenho 35 anos, não tenho Tarifa Social e quero trocar 10 litros de óleo por sabão ecológico. Eu tenho direito?",
+      "ground_truth": "Não. Você pode realizar o descarte gratuitamente, mas a troca por sabão ecológico é exclusiva para idosos acima de 60 anos ou moradores cadastrados na Tarifa Social de Energia.",
+      "answer": "O óleo usado deve ser entregue frio, armazenado em garrafas PET transparentes e devidamente tampadas, respeitando o limite máximo de 20 litros por entrega residencial [doc_01_regulamento_coleta.txt].",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.94,
+      "context_precision": 0.92,
+      "context_recall": 0.9
+    }
+  ]
+}
